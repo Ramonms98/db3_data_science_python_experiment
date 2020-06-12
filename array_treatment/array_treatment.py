@@ -62,7 +62,7 @@ sum_different_diagonals = 0
 row_2 = 4
 column_2 = 0
 while column_2 <= 4 and row_2 >= 0  :
-  if row_2 + column_2 == 4 : # 4==0
+  if row_2 + column_2 == 4 :
     sum_different_diagonals = sum_different_diagonals + array[row_2][column_2]
     print(sum_different_diagonals)
   row_2 = row_2 - 1
